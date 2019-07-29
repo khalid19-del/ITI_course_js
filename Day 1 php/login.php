@@ -1,0 +1,11 @@
+<?php
+   $username=$_POST['username'];
+   $password=$_POST['password'];
+   if($username=='user1'&&$password=='123')
+   {
+     header("Location:aboutus.php");
+   }
+   else{
+       header("Location:index.php");
+   }
+?>
